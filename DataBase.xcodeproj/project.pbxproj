@@ -14,6 +14,8 @@
 		44F13778236B58D500DBA010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F13777236B58D500DBA010 /* Assets.xcassets */; };
 		44F1377B236B58D500DBA010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F13779236B58D500DBA010 /* LaunchScreen.storyboard */; };
 		44F13783236B5D1000DBA010 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F13782236B5D1000DBA010 /* TableViewController.swift */; };
+		44F13786236B62D500DBA010 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F13784236B62D500DBA010 /* Task+CoreDataClass.swift */; };
+		44F13787236B62D500DBA010 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F13785236B62D500DBA010 /* Task+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		44F1377A236B58D500DBA010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44F1377C236B58D500DBA010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44F13782236B5D1000DBA010 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		44F13784236B62D500DBA010 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		44F13785236B62D500DBA010 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		44F1376A236B58C800DBA010 /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
+				44F13784236B62D500DBA010 /* Task+CoreDataClass.swift */,
+				44F13785236B62D500DBA010 /* Task+CoreDataProperties.swift */,
 				44F1376B236B58C800DBA010 /* AppDelegate.swift */,
 				44F1376D236B58C800DBA010 /* SceneDelegate.swift */,
 				44F13782236B5D1000DBA010 /* TableViewController.swift */,
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F1376C236B58C800DBA010 /* AppDelegate.swift in Sources */,
+				44F13786236B62D500DBA010 /* Task+CoreDataClass.swift in Sources */,
 				44F13776236B58C800DBA010 /* DataBase.xcdatamodeld in Sources */,
 				44F1376E236B58C800DBA010 /* SceneDelegate.swift in Sources */,
+				44F13787236B62D500DBA010 /* Task+CoreDataProperties.swift in Sources */,
 				44F13783236B5D1000DBA010 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
